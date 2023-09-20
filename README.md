@@ -1,1 +1,3 @@
 # HTML-CSS
+HTML stands for Hyper Text Markup Language and it is the language that is used to define the structure of a web page. HTML is used along with CSS and Javascript to design web pages. HTML is the basic building block of a website. It has different attributes and elements with different properties. Each element has an opening and a closing tag. We can also add images with the help of HTML. 
+CSS stands for Cascading Style Sheets and it is used to style web documents. It is used to provide the background color and is also used for styling. It can also be used to style the font and change its size. We can also style many different web pages with the same specifications with the help of CSS.
