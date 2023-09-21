@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h2
+		{
+			color:red;
+		
+		}
+		body
+		{
+			background-color: beige;
+		}
+		
+	</style>
+</head>
+<body>
+	<h2><u><center>FORM</center></u></h2>
+<form action="login.html" method="POST">
+	<label>FIRST NAME</label>
+	<input type="text" name="t1" value="eg: Jay" required><br><br>
+	<label>LAST NAME</label>
+	
+	<input type="text" name="t2" value="eg: Sreenivas"><br><br>
+	<label>PASSWORD</label>
+	<input type="password" name="pass" maxlength="10" placeholder="Password should contain numbers,characters,letters..."><br><br>
+	<label>IDENTITY NUMBER</label>
+	<input type="number" name="num" required><br><br>
+
+	<label>E-MAIL</label>
+	<input type="email" name="email" placeholder="Enter your E-MAIL address"  required><br><br>
+	<label>GENDER</label>
+	<input type="radio" name="gender" value="male"><span>MALE</span>
+	<input type="radio" name="gender" value="female"><span>FEMALE</span><br><br>
+	<label> DATE OF BIRTH</label>
+	<input type="date" name=""><br><br>
+	<label>ADDRESS</label><br>
+	<textarea rows="3" cols="30" placeholder="Enter your Full Address">
+	</textarea><br><br>
+	
+	<label></label>
+	<label>PHONE NUMBER</label>
+	<input type="tel" name="t4" placeholder="Enter 10 digits"><br><br>
+	<label>RESUME</label>
+	<input type="file" name="file"><br><br>
+	<label>MONTH OF JOINING</label>
+	<input type="month" name=""><br><br>
+	<label for="course"> CHOOSE YOUR COURSE</label>
+	<select id="course" name="course">
+	<option>Choose</option> 
+	<option value="jav">Java</option>
+	<option value="py">Python</option>
+	<option value="html">HTML</option>
+	<option value="php">PHP</option>
+	<option value="cpp">C++</option>
+	<option value="c">C</option>
+	</select><br><br>
+	<label>ENTER URL</label>
+	<input type="url" placeholder="https://example.com"><br><br>
+	<input type="search" placeholder="search here"><br><br>
+	<label>PICK YOUR COLOR</label>
+	<input type="color" name="col"><br><br>
+	<input type="submit" name="submit">
+</form>
+</body>
+
+
+
+</html>
